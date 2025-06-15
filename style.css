@@ -13,7 +13,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #6A80B9;
   position: fixed;
   top: 0;
   width: 100%;
@@ -30,16 +30,46 @@ ul.nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: candy, serif;
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #85805d
+;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: #f6c794;
 }
 
 h1 {
   width: 100%;
+}
+
+.aboutp {
+  margin-left: 90px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #155E95;
+  color: white;
+}
+.about {
+  margin-left: 30px
+}
+.lark {
+  text-align: center;
+}
+@font-face {
+  font-family: candy; 
+  src: url(https://cdn.glitch.global/0b4db1cb-0276-4fcf-a633-1e8ef5d05ff6/Moodcake.ttf?v=1748957391922);
+  
+}
+@font-face {
+  font-family: mag;
+  src: url(https://cdn.glitch.global/0b4db1cb-0276-4fcf-a633-1e8ef5d05ff6/MagazineLetterByBrntlbrnl-Regular.ttf?v=1749042799960);
+}
+@font-face {
+  font-family: moral;
+  src: url(https://cdn.glitch.global/0b4db1cb-0276-4fcf-a633-1e8ef5d05ff6/Morally%20Serif.otf?v=1749042812678);
 }
